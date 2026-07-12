@@ -167,7 +167,7 @@ label start:
     stop sound
     igrac "ughmmmm."
 
-    scene bg toalet
+    scene bg toalet1
     with fade
     play sound "audio/shower.mp3"
     "I woke up, went to bathroom and took cold shower."
