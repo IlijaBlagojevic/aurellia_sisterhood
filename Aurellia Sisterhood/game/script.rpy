@@ -45,17 +45,17 @@ label start:
     igrac "Not that it mattered."
     igrac "It wasn't like I had anywhere else to be."
     igrac "I stared at the notification on my laptop."
-    igrac "Fuck... not again"
+    igrac "Fuck... not again."
     "Academic Warning."
     igrac "Three failed courses."
     igrac "Just one barely passed."
     igrac "If I continue with this tempo, it will take me years until I finish college."
     igrac "One professor had stopped pretending I could still turn things around. Another simply wrote, {b} See me after class{\b} I never did."
-    "He leaned back on his chair with look of despair in his face"
-    igrac "Sons of a bitches"
-    igrac "I fucking hate every single one of them"
+    "He leaned back on his chair with look of despair in his face."
+    igrac "Sons of a bitches."
+    igrac "I fucking hate every single one of them."
     igrac "When I first got accepted into university, everyone said these would be the best years of my life."
-    igrac "yeah, that was a good joke"
+    igrac "yeah, that was a good joke."
     igrac "Every semester started the same way."
     igrac "This time I'll stay ahead."
     igrac "This time I'll study every day."
@@ -103,7 +103,7 @@ label start:
     igrac "AHHHHHH Jesus."
     igrac "Every posting wanted someone with experience."
     igrac "Or qualifications,or availability that clashed perfectly with my lectures."
-    igrac "hahahaha"
+    igrac "hahahaha."
     igrac "Really funny."
     igrac "You need expirience to get a job."
     igrac "But you need job to get expirience."
@@ -125,12 +125,12 @@ label start:
     "Stories of success. Women talking about changing their lives. Everything looked... surprisingly professional."
     igrac "...well."
     igrac "It's not like I have better optinions."
-    "I pulled out my phone and called it"
+    "I pulled out my phone and called it."
 
     scene bg phone
     with fade
 
-    p "Hello! You've reached Aurellia Sisterhood. My name is Jane. How may I help you today?"
+    p "Hello! You've reached {b} Aurellia Sisterhood {b/}. My name is Jane. How may I help you today?"
     igrac "Hi... I saw your job listing online. I'm interested in applying."
     Jane "Wonderful. We always appreciate motivated applicants. May I have your name?"
     igrac "yeah, it's [iname]."
@@ -140,9 +140,9 @@ label start:
     igrac "Is there anything else I should prepare?"
     Jane "Just yourself and an open mind. We'll explain everything once you arrive."
     igrac "...Alright. I'll be there."
-    Jane "Excellent. We look forward to meeting you, Alex. Have a wonderful day."
-    igrac "You too"
-    "Click"
+    Jane "Excellent. We look forward to meeting you, [iname]. Have a wonderful day."
+    igrac "You too."
+    "*Click*"
 
     scene bg soba
     with fade
@@ -177,7 +177,7 @@ label start:
     with fade
     play sound "audio/shower.mp3"
     "I woke up, went to bathroom and took cold shower."
-    "I can feel this day will be good"
+    "I can feel this day will be good."
     stop sound fadeout 2.0
 
     scene bg soba
@@ -185,6 +185,11 @@ label start:
 
     ""
     "It's time to go..."
+
+    "You can open map by clicking on your phone."
+    "Now you should see where {b}Aurellia Sisterhood{/b} location is."
+
+
 
 
 
