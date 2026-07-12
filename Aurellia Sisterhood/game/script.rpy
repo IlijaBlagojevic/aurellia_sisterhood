@@ -155,11 +155,30 @@ label start:
     scene bg alarm
     with fade
 
-    play music "audio/Alarm.mp3" fadein 2.0
+    play sound "audio/Alarm.mp3" fadein 2.0
 
     ""
 
     igrac "Oh shit, I better hurry up!"
+    
+    scene bg soba
+    with fade
+
+    stop sound
+    igrac "ughmmmm."
+
+    scene bg toalet
+    with fade
+    play sound "audio/shower.mp3"
+    "I woke up, went to bathroom and took cold shower."
+    "I can feel this day will be good"
+    stop sound fadeout 2.0
+
+    scene bg soba
+    with fade
+
+    ""
+    "It's time to go..."
 
 
 
