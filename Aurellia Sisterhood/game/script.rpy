@@ -40,6 +40,7 @@ label start:
 
     scene bg soba
     with fade
+    show screen floating_phone_button
 
     igrac "The rain tapped softly against my apartment window."
     igrac "Not that it mattered."
@@ -130,7 +131,7 @@ label start:
     scene bg phone
     with fade
 
-    p "Hello! You've reached {b} Aurellia Sisterhood {b/}. My name is Jane. How may I help you today?"
+    p "Hello! You've reached {b} Aurellia Sisterhood {/b}. My name is Jane. How may I help you today?"
     igrac "Hi... I saw your job listing online. I'm interested in applying."
     Jane "Wonderful. We always appreciate motivated applicants. May I have your name?"
     igrac "yeah, it's [iname]."
@@ -187,8 +188,7 @@ label start:
     "It's time to go..."
 
     "You can open map by clicking on your phone."
-    "Now you should see where {b}Aurellia Sisterhood{/b} location is."
-
+    
 
 
 
@@ -199,4 +199,4 @@ label start:
 
     # This ends the game.
 
-    return
+    

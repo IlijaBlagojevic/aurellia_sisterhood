@@ -10,8 +10,7 @@
 
 define config.search_prefixes = [ "", "images/", "gui/" ]
 
-init python:
-    config.automatic_glyphs = True
+
 
 
 ## Basics ######################################################################
