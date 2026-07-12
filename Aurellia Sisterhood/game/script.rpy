@@ -124,7 +124,7 @@ label start:
     scene bg phone
     with fade
 
-    p "Hello! You've reached {b} Aurellia Sisterhood {b/}. My name is Jane. How may I help you today?"
+    p "Hello! You've reached {b} Aurellia Sisterhood {/b}. My name is Jane. How may I help you today?"
     igrac "Hi... I saw your job listing online. I'm interested in applying."
     Jane "Wonderful. We always appreciate motivated applicants. May I have your name?"
     igrac "yeah, it's [iname]."
@@ -184,7 +184,22 @@ label start:
     "Now you should see where {b}Aurellia Sisterhood{/b} location is."
 
 
+    scene black
+    with fade
 
+    scene bg grad
+    with fade
+
+    "Well... During interview it's important to smile, hold your posture and be confident. "
+    igrac "Alright, this is it."
+    igrac "It's just an interview. Nothing to panic about."
+    "He glanced out the window as the city drifted by."
+    igrac "I really need this job."
+    igrac "If it pays half as well as they advertised, I might actually be able to catch up on rent."
+    igrac "Assuming they don't take one look at me and send me home."
+    "He adjusted his wrinkled shirt for what felt like the tenth time."
+    igrac "Come on, [iname]. Smile. Be confident. You've survived exams far scarier than a job interview."
+    ""
 
 
     
